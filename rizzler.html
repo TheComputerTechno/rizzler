@@ -18,6 +18,8 @@
             margin-left: auto;
             margin-right: auto;
             height: 750px;
+            min-width: 100%;
+            min-height: 100%;
         }
     </style>
 </head>
@@ -28,15 +30,15 @@
         <h3>Click on the button to see a rizzler</h3>
         <!-- Add id to image -->
         <img id="image" src="src/stickman.gif" alt="GFG image"/>
-        <video src="src/smtreallycool.mp4" id="video" width="320" height="240"> 
-            Your browser does not support the video tag.
+        <video id="video"> 
+            <source src="src/smtreallycool.mp4" type="video/mp4">
         </video>
     </div>
     <button type="button" onclick="show()" id="btnID">
         Show <b><i>The Rizzler</i></b>
     </button>
     <button type="button" onclick="getRickRolled()" id="vidBtn">
-        Get some rizz
+        Get <b><i>The Rizz</i></b>
     </button>
     <script src="src/main.js"></script>
 </body>
