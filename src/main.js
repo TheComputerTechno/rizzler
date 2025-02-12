@@ -18,7 +18,10 @@ function getRickRolled() {
     document.getElementById('vidBtn')
         .style.display = "none";
      var vid = document.getElementById('video');
-    vid.play();
+    vid.load();
+    if(vid.onload){
+        vid.play();
+    }
     
     
 }
