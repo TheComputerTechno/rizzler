@@ -9,7 +9,7 @@ function show() {
         .style.display = "block";    
 }
 
-function getRickRolled() {
+function getRizz() {
     /* Access video by id and change 
     the display property to block*/
     document.getElementById('video')
@@ -21,3 +21,5 @@ function getRickRolled() {
     document.getElementById('image').style.display = "none";
     document.getElementById('video').play();
 }
+
+
